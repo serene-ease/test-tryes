@@ -1,2 +1,2 @@
 // import "./"
-import "./GOiT-lessons/GO-IT-JS-lesson-06.js"
+// import "./GOiT-lessons/06/GO-IT-JS-lesson-06.js"

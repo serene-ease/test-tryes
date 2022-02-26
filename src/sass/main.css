@@ -60,8 +60,8 @@ img {
 .Btn {
   height: 30px;
   width: 100px;
-  background-color: gray;
-  color: black;
+  background-color: rgba(187, 187, 187, 0.733);
+  color: #000142;
   padding: 5px;
   margin: 20px 10px;
   border-radius: 6px;
@@ -98,5 +98,23 @@ h2 {
 
 .hero .container {
   text-align: center;
+}
+
+.cpContainer {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+}
+
+.cpBtn {
+  width: 70px;
+  height: 30px;
+  margin: 20px 10px;
+  border-radius: 30%;
 }
 /*# sourceMappingURL=main.css.map */

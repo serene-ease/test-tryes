@@ -1,3 +1,4 @@
+
 const actionBtnRef = document.querySelector('.actionBtn');
 const clearBtnRef = document.querySelector('.delAtributeBtn');
 
@@ -56,6 +57,7 @@ for (let index = 0; index < actionsBtnRef.length; index++) {
     console.log(actionsBtnRef[index].getAttribute('data-act'))
 }
 */
+
 /*
 // """forEach""" will be the best for this action
 console.log('//////////// Dataset \\\\\\\\\\\\');
@@ -96,13 +98,20 @@ const groupBtnRef = document.createElement('button');
 groupBtnRef.classList.add('Btn', 'groupBtn');
 groupBtnRef.setAttribute('type', 'button');
 
-// groupBtnRef.textContent('"Regroup it!"'); doesn't work
+groupBtnRef.textContent = "Regroup it!";
 
 groupBtnRef.addEventListener('click', () => {
+    /*
     imageChangingMenuList.prepend(groupBtnRef);
     groupBtnRef.after(actionBtnRef);
     imageChangingMenuList.append(clearBtnRef);
+    */
+    imageChangingMenuList.append(groupBtnRef, actionBtnRef, clearBtnRef);
+    // heroContainerRef.appendChild(imageChangingMenuList);
+    // heroContainerRef.insertBefore(imageChangingMenuList, document.querySelector('.hero__image'));
+    heroContainerRef.insertBefore(imageChangingMenuList, heroContainerRef.firstElementChild);
 })
 
 heroContainerRef.prepend(groupBtnRef);
-heroContainerRef.appendChild(imageChangingMenuList);
+
+
