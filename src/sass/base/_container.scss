@@ -1,0 +1,33 @@
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  
+    width: 100%;
+    //Mobile
+
+    //320 //410 //500 //600 //750 //1000 //1500px
+    @media screen and (min-width: 410px) and (max-width: 499px) {
+      // max-width: 480px;    
+    }
+    @media screen and (min-width: 500px) and (max-width: 599px) {
+      // max-width: 480px;    
+    }    
+    @media screen and (min-width: 600px) and (max-width: 749px) {
+      // max-width: 480px;    
+    }
+    @media screen and (min-width: 750px) and (max-width: 999px) {
+      // max-width: 480px;    
+    }
+    // Tablet
+    @media screen and (min-width: 1000px) and (max-width: 1499px) {
+      max-width: 1000px;
+    }
+    // Desktop
+    @media screen and (min-width: 1500px) {
+      max-width: 1500px;
+    }
+  }
+
+ 
