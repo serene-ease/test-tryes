@@ -1,5 +1,5 @@
 import { colorPickerOptions } from './colorPicker.js';
-
+console.log("////////////////////////////////////////Color picker \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\");
 const colorPickerSectionRef = document.createElement('section');
 colorPickerSectionRef.classList.add('section');
 const colorPickerSectionContainerRef = document.createElement('div');
