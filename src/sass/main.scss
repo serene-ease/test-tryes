@@ -2,9 +2,16 @@
 @import "./base/container";
 @import "./base/reset";
 
+@import "./utils/vars";
+
+@import "./utils/hidden";
+@import "./utils/placeholders";
+@import "./utils/backdrop";
+
+@import "./components/modal";
+@import "./components/modal-form";
+
+
+
 @import "./GOit-Lessons/lessons";
-
-
-
-
 @import "./GOit-Lessons/GOit-Lesson-06";
