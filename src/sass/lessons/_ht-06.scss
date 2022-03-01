@@ -1,0 +1,58 @@
+// .task-01.lesson__06 .container {
+//     text-align: center;
+// }
+.task-01.lesson__06 .categories {
+    display: flex;    
+}
+.categories > .item:not(:first-child) {
+    margin-left: 80px;
+}
+.task__descr {
+    color: aqua;
+    background-color: rgb(2, 2, 70);
+    font-weight: 600;
+    width: 150px;
+    border-radius: 12px;
+    text-align: center;
+    height: 25px;
+    // margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.summary {
+    width: 150px;
+    background-color: aquamarine;
+}
+.task-03.lesson__06 .gallery{
+    display: flex;
+}
+.task-03.lesson__06 .gallery__image {
+    min-width: 100px;
+    max-width: 100%;
+}
+.task-03.lesson__06 .gallery__item:not(:first-child) {
+    margin-left: 30px;
+}
+
+.task-06.lesson__06 #validation-input {
+    border: 3px solid #bdbdbd;  
+  &.valid {
+    border-color: #4caf50;
+  }
+  &.invalid {
+    border-color: #f44336;
+  }
+}
+.task-06.lesson__06 .result__message {
+  font-size: large;
+  font-weight: 700;
+  color: darkgreen;
+}
+.task-10.lesson__06 #boxes{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  max-height: 500px;
+  margin-bottom: 200px;
+}
