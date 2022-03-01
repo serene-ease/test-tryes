@@ -156,6 +156,35 @@ img {
   margin-left: 30px;
 }
 
+.task-06.lesson__06 #validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+.task-06.lesson__06 #validation-input.valid {
+  border-color: #4caf50;
+}
+
+.task-06.lesson__06 #validation-input.invalid {
+  border-color: #f44336;
+}
+
+.task-06.lesson__06 .result__message {
+  font-size: large;
+  font-weight: 700;
+  color: darkgreen;
+}
+
+.task-10.lesson__06 #boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 1000px;
+  max-height: 500px;
+  margin-bottom: 200px;
+}
+
 .backdrop.is-hidden .modal {
   -webkit-transform: scale(2) rotate(360deg);
           transform: scale(2) rotate(360deg);
