@@ -47,7 +47,7 @@ console.log(actionsBtnRef[0].getAttribute('data-act'));
 console.log(actionsBtnRef[1].getAttribute('data-act'));
 console.log(actionsBtnRef[2].getAttribute('data-act'));
 */
-/*
+// /*
 console.log('"For" by "dataset"')
 for (let index = 0; index < actionsBtnRef.length; index++) {
     console.log(actionsBtnRef[index].dataset.act)
@@ -56,7 +56,7 @@ console.log('"For" by "getAttribute"')
 for (let index = 0; index < actionsBtnRef.length; index++) {
     console.log(actionsBtnRef[index].getAttribute('data-act'))
 }
-*/
+// */
 
 /*
 // """forEach""" will be the best for this action
