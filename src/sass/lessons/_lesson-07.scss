@@ -1,3 +1,43 @@
 .lesson-07-02__01 {
     text-align: center;
 }
+.lesson-07-02__03 .feed {
+    display: flex;
+    flex-wrap: wrap;    
+}
+.lesson-07-02__03 .feed__item,
+.lesson-07-02__04 .feed__item{
+    max-width: 640px;
+    min-width: 480px;
+}
+.lesson-07-02__03 .feed__item,
+.lesson-07-02__04 .feed__item{
+    margin-left: 40px;
+}
+.lesson-07-02__03 .feed__descr
+.lesson-07-02__04 .feed__descr {
+   max-width: 640px;
+}
+.lesson-07-02__03 .feed,
+.lesson-07-02__04 .feed {
+    list-style: none;
+  
+
+  & li:not(:last-child) {
+    margin-bottom: 32px;
+  }
+
+  & img {
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: all 500ms linear 500ms;
+    width: 640px;
+    height: 480px;
+    object-fit: cover;
+  }
+
+  & img.appear {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
